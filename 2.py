@@ -187,8 +187,8 @@ import imutils
 
 h = 720
 w = 1280
-# SIZE = (7, 7)
-SIZE = (4, 6)
+SIZE = (7, 7)
+#SIZE = (4, 6)
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 90, 0.001)
 
 # camMatrix = np.load("/home/msi-user/Рабочий стол/test/pyqt5/programm/arrays/homography/10/matrixCamera10.npy")
