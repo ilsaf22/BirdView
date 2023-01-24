@@ -216,7 +216,7 @@ img = cv2.imread(filename)
 #for i in make_luminance_balance(f)
 #img = make_luminance_balance(img)
 # cv2.imshow("make_white_balance", img)
-# cv2.waitKey(0)
+# cv2.waitKey(0)0
 print(img)
 imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 cv2.namedWindow("thresh", cv2.WINDOW_NORMAL)
